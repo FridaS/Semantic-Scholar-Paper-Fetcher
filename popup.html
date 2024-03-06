@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Semantic Scholar Paper Fetcher</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="popup-container">
+    <label>搜索关键词：</label>
+    <input type="text" id="keyword" placeholder="请输入搜索关键词">
+    <label>搜索时间：</label>
+    <input type="text" id="year" placeholder="请输入搜索时间">
+    <button id="search">搜索</button>
+    <button id="loading" style="display: none;">loading</button>
+  </div>
+  <div id="results"></div>
+  <button id="download" style="display:none;">下载</button>
+  <script src="popup.js"></script>
+</body>
+</html>
